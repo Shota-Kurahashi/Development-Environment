@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "lintfix": "npm run lint -- --fix",
+    "format": "prettier -w 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "react": "^18.2.0",
