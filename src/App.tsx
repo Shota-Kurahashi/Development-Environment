@@ -1,5 +1,5 @@
 import React from "react";
 
-const App = () => <div className="bg-red-500">red</div>;
+const App = () => <div />;
 
 export default App;
